@@ -58,20 +58,20 @@ In Rust, variable bindings are immutable by default. But here we're trying
 to reassign a different value to x! There's a keyword we can use to make
 a variable binding mutable instead."""
 
-[[exercises]]
-name = "variables5"
-path = "exercises/variables/variables5.rs"
-mode = "compile"
-hint = """
-In variables4 we already learned how to make an immutable variable mutable
-using a special keyword. Unfortunately this doesn't help us much in this exercise
-because we want to assign a different typed value to an existing variable. Sometimes
-you may also like to reuse existing variable names because you are just converting
-values to different types like in this exercise.
-Fortunately Rust has a powerful solution to this problem: 'Shadowing'!
-You can read more about 'Shadowing' in the book's section 'Variables and Mutability':
-https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#shadowing
-Try to solve this exercise afterwards using this technique."""
+# [[exercises]]
+# name = "variables5"
+# path = "exercises/variables/variables5.rs"
+# mode = "compile"
+# hint = """
+# In variables4 we already learned how to make an immutable variable mutable
+# using a special keyword. Unfortunately this doesn't help us much in this exercise
+# because we want to assign a different typed value to an existing variable. Sometimes
+# you may also like to reuse existing variable names because you are just converting
+# values to different types like in this exercise.
+# Fortunately Rust has a powerful solution to this problem: 'Shadowing'!
+# You can read more about 'Shadowing' in the book's section 'Variables and Mutability':
+# https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html#shadowing
+# Try to solve this exercise afterwards using this technique."""
 
 [[exercises]]
 name = "variables6"
@@ -108,15 +108,15 @@ hint = """
 Rust requires that all parts of a function's signature have type annotations,
 but `call_me` is missing the type annotation of `num`."""
 
-[[exercises]]
-name = "functions3"
-path = "exercises/functions/functions3.rs"
-mode = "compile"
-hint = """
-This time, the function *declaration* is okay, but there's something wrong
-with the place where we're calling the function.
-As a reminder, you can freely play around with different solutions in Rustlings!
-Watch mode will only jump to the next exercise if you remove the I AM NOT DONE comment."""
+# [[exercises]]
+# name = "functions3"
+# path = "exercises/functions/functions3.rs"
+# mode = "compile"
+# hint = """
+# This time, the function *declaration* is okay, but there's something wrong
+# with the place where we're calling the function.
+# As a reminder, you can freely play around with different solutions in Rustlings!
+# Watch mode will only jump to the next exercise if you remove the I AM NOT DONE comment."""
 
 [[exercises]]
 name = "functions4"
@@ -158,36 +158,28 @@ Remember in Rust that:
 - `if`/`else` conditionals are expressions
 - Each condition is followed by a `{}` block."""
 
-[[exercises]]
-name = "if2"
-path = "exercises/if/if2.rs"
-mode = "test"
-hint = """
-For that first compiler error, it's important in Rust that each conditional
-block returns the same type! To get the tests passing, you will need a couple
-conditions checking different input values."""
-
-# QUIZ 1
-
-[[exercises]]
-name = "quiz1"
-path = "exercises/quiz1.rs"
-mode = "test"
-hint = "No hints this time ;)"
+# [[exercises]]
+# name = "if2"
+# path = "exercises/if/if2.rs"
+# mode = "test"
+# hint = """
+# For that first compiler error, it's important in Rust that each conditional
+# block returns the same type! To get the tests passing, you will need a couple
+# conditions checking different input values."""
 
 # PRIMITIVE TYPES
 
-[[exercises]]
-name = "primitive_types1"
-path = "exercises/primitive_types/primitive_types1.rs"
-mode = "compile"
-hint = "No hints this time ;)"
+# [[exercises]]
+# name = "primitive_types1"
+# path = "exercises/primitive_types/primitive_types1.rs"
+# mode = "compile"
+# hint = "No hints this time ;)"
 
-[[exercises]]
-name = "primitive_types2"
-path = "exercises/primitive_types/primitive_types2.rs"
-mode = "compile"
-hint = "No hints this time ;)"
+# [[exercises]]
+# name = "primitive_types2"
+# path = "exercises/primitive_types/primitive_types2.rs"
+# mode = "compile"
+# hint = "No hints this time ;)"
 
 [[exercises]]
 name = "primitive_types3"
@@ -1161,3 +1153,14 @@ path = "exercises/conversions/as_ref_mut.rs"
 mode = "test"
 hint = """
 Add AsRef<str> as a trait bound to the functions."""
+
+
+# QUIZ 1
+
+[[exercises]]
+name = "quiz1"
+path = "exercises/quiz1.rs"
+mode = "test"
+hint = "No hints this time ;)"
+
+
