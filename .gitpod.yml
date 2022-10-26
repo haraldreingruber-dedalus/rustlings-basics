@@ -4,5 +4,5 @@ tasks:
 
 vscode:
   extensions:
-    - rust-lang.rust@0.7.8
     - bungcip.better-toml
+    - matklad.rust-analyzer
