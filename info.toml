@@ -515,14 +515,6 @@ Hint 2: If there is already an entry for a given key, the value returned by `ent
 Learn more at https://doc.rust-lang.org/book/ch08-03-hash-maps.html#updating-a-value-based-on-the-old-value
 """
 
-# QUIZ 2
-
-[[exercises]]
-name = "quiz2"
-path = "exercises/quiz2.rs"
-mode = "test"
-hint = "No hints this time ;)"
-
 # OPTIONS
 
 [[exercises]]
@@ -729,16 +721,6 @@ To ensure a parameter implements multiple traits use the '+ syntax'. Try replaci
 
 See the documentation at: https://doc.rust-lang.org/book/ch10-02-traits.html#specifying-multiple-trait-bounds-with-the--syntax
 """
-
-# QUIZ 3
-
-[[exercises]]
-name = "quiz3"
-path = "exercises/quiz3.rs"
-mode = "test"
-hint = """
-To find the best solution to this challenge you're going to need to think back to your
-knowledge of traits, specifically Trait Bound Syntax -  you may also need this: `use std::fmt::Display;`."""
 
 # TESTS
 
@@ -1162,5 +1144,23 @@ name = "quiz1"
 path = "exercises/quiz1.rs"
 mode = "test"
 hint = "No hints this time ;)"
+
+# QUIZ 2
+
+[[exercises]]
+name = "quiz2"
+path = "exercises/quiz2.rs"
+mode = "test"
+hint = "No hints this time ;)"
+
+# QUIZ 3
+
+[[exercises]]
+name = "quiz3"
+path = "exercises/quiz3.rs"
+mode = "test"
+hint = """
+To find the best solution to this challenge you're going to need to think back to your
+knowledge of traits, specifically Trait Bound Syntax -  you may also need this: `use std::fmt::Display;`."""
 
 
